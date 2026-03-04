@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles_index.css">
+    <link rel="stylesheet" href="styles_navbar.css">
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div id="nav-placeholder"></div>
+
+    <div class="container">
+        <div class="text">
+            <h2>HELLO, I'M LE</h2>
+            <p2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quisquam laboriosam, ex beatae, aliquam
+                voluptas velit illum eos perferendis nihil qui, doloremque quis natus incidunt.
+            </p2>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
+
+<script src="index.js"></script>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+    $.get("navbar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+</script>
