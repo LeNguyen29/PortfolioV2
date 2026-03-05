@@ -2,17 +2,33 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: green;
+    background-color: maroon;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 nav a {
     color: white;
     font-size: 22px;
     font-weight: 600;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+}
+
+nav .left {
+    margin: 0 10px;
 }
 
 nav .center a {
     padding: 5px 15px;
     border-radius: 5px;
     margin: 0 10px;
+    font-size: 20px;
+}
+
+nav .right {
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid white;
+    border-radius: 5px;
 }
